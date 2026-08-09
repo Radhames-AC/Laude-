@@ -1,0 +1,29 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradTeal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="1" />
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="gradIndigo" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="1" />
+      <stop offset="100%" stop-color="#312e81" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="gradWhite" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="100%" stop-color="#f8fafc" stop-opacity="0.9" />
+    </linearGradient>
+  </defs>
+  
+  <path d="M 15 30 Q 30 25, 50 35 L 50 85 Q 30 75, 15 80 Z" fill="url(#gradTeal)" />
+  <path d="M 85 30 Q 70 25, 50 35 L 50 85 Q 70 75, 85 80 Z" fill="url(#gradIndigo)" />
+  <path d="M 48 35 L 52 35 L 52 85 L 48 85 Z" fill="#ffffff" opacity="0.5" />
+  
+  <path 
+    d="M 32 55 L 45 68 L 75 30" 
+    fill="none"
+    stroke="url(#gradWhite)"
+    stroke-width="8"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>

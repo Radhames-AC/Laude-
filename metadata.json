@@ -1,0 +1,5 @@
+{
+  "name": "Teacher's Daily Tracker",
+  "description": "Manage student rosters, record daily performance metrics, and view historical data.",
+  "requestFramePermissions": []
+}
